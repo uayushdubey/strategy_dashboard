@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the dataset
-file_path = r"D:\CrazySoft\Scanner_testing\Backend_code1\output_trade_signals.xlsx"
+file_path = r"output_trade_signals.xlsx"
 df = pd.read_excel(file_path)
 
 # Convert DATETIME to datetime format
@@ -128,3 +128,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
